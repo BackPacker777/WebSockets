@@ -1,0 +1,10 @@
+/**  AUTHOR: hbates@northmen.org
+ *   VERSION: 1.0.0
+ *   CREATED: 3.17.2016
+ *   PURPOSE: Demo Node.js & WebSockets interaction
+ */
+
+"use strict";
+
+const APP = require(__dirname + '/../app.js');
+new APP();

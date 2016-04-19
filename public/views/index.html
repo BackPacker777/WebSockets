@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+          <meta charset="utf-8">
+          <title>WebSockets Demo</title>
+          <link rel="stylesheet" href="css/foundation.min.css">
+          <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+          <div class="row">
+			<h1>WebSockets Demo</h1>
+			<div class="small-1 columns"><h3>Status:</h3></div><h5 class="small-3 columns y-center-1" id="status"></h5>
+               <div class="small-1 columns"><h3>URL:</h3></div><div class="small-2 columns y-center-1 end"><input id="url"></div>
+		</div>
+          <br>
+          <div class="row">
+               <div class="small-4 columns">
+			     <input id="open" type="button" class="button" value="Connect">
+			     <input id="close" type="button" class="button" value="Disconnect">
+               </div>
+          </div>
+          <br>
+          <div class="row">
+               <div class="small-1 columns">
+                    <input id="send" type="button" class="button" value="Send">
+               </div>
+               <div class="small-4 columns y-center-1 end">
+                    <input id="text">
+               </div>
+          </div>
+          <br>
+          <div class="row">
+               <div class="small-8 columns">
+			     <h4 id="message"></h4>
+               </div>
+		</div>
+
+		<script src="javascripts/main.js"></script>
+	</body>
+</html>
